@@ -1,0 +1,1 @@
+In Objective-C, a tricky bug can arise from the interaction between KVO (Key-Value Observing) and memory management, especially when dealing with weak references.  If an object is deallocated while it's still observing another object, a crash can occur. This often happens silently during development and only surfaces later.
